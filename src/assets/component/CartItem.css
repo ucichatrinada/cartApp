@@ -1,0 +1,43 @@
+.cartItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd; /* Garis horizontal di bawah item */
+  }
+  
+  .cartItem-left {
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .cartItem-img {
+    width: 50px;
+    margin-right: 10px; /* Jarak antara gambar dan detail produk */
+  }
+  
+  .cartItem-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .counter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    padding: 0 20px;
+    border-left: 2px solid pink; /* Garis vertikal antara counter dan detail produk */
+  }
+  
+  .cartItem-total {
+    font-weight: bold;
+    margin-left: 20px;
+    border-left: 2px solid pink; /* Garis vertikal antara total dan counter */
+    padding-left: 20px; /* Jarak antara garis dan teks total */
+    padding-right: 40px;
+  }
+  

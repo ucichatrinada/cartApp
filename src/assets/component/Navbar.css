@@ -1,0 +1,47 @@
+/* Navbar.css */
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-title {
+    color: pink;
+    font-size: 1.5rem;
+  }
+  
+  .navbar-cart {
+    position: relative;
+    color: white;
+    font-size: 1.2rem;
+  }
+  
+  .cart-icon {
+    font-size: 1.8rem;
+    color: pink;
+  }
+  .totaltotal{
+    display: flex;
+  }
+  .cart-counter {
+    background-color: white; /* Ganti menjadi warna yang terlihat */
+    color: black; /* Warna teks harus kontras dengan latar belakang */ 
+    font-size: 1rem; /* Ukuran font yang lebih kecil */
+    padding: 0.4rem; /* Tambahkan padding untuk memperbesar lingkaran */
+   /* border-radius: 50%; /* Membuat bentuk lingkaran */
+    font-weight: bold;
+    width: 90px; /* Tentukan lebar lingkaran */
+    height: 30px; /* Tentukan tinggi lingkaran */
+
+    border-radius: 50%;
+    justify-content: center; /* Centering konten secara horizontal */
+    align-items: center; /* Centering konten secara vertical */
+    z-index: 10;
+}
+
+.total-price{
+margin-left: 3rem;
+}
+  
