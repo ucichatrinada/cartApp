@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './assets/component/Navbar';
-import CartList from './assets/component/Cartlist';
+import CartList from './assets/component/CartList';
 
 const App = () => {
   const [products, setProducts] = useState([]);
