@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './assets/component/Navbar';
-import Cartlist from '.assets/component/cartlist';
+import CartList from './assets/component/Cartlist';
 
 const App = () => {
   const [products, setProducts] = useState([]);
@@ -23,7 +23,7 @@ const App = () => {
   return (
     <div>
       <Navbar cartCount={cartCount} totalPrice={totalPrice.toFixed(2)} />
-      <Cartlist products={products} quantities={quantities} setQuantities={setQuantities} />
+      <CartList products={products} quantities={quantities} setQuantities={setQuantities} />
     </div>
   );
 };
